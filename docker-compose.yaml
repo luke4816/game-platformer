@@ -2,4 +2,4 @@ version: "3.2"
 
 services:
     game:
-        image: gitlab.com/luke4816/game-platformer
+        image: ghcr.io/luke4816/game-platformer:latest

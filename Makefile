@@ -10,7 +10,7 @@ pull:
 deploy-dev:
 	docker-compose up -d
 
-deploy-prod:
+deploy-prod: pull
 	docker stack deploy -c docker-compose.yaml game-platformer
 
 remove-dev:

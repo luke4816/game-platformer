@@ -3,3 +3,12 @@ version: "3.2"
 services:
     game:
         image: ghcr.io/luke4816/game-platformer:latest
+        networks:
+            - game-platformer
+            - proxy
+
+networks:
+    game-platformer:
+        external: true
+    proxy:
+        external: true

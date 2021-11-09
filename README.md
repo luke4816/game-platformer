@@ -17,16 +17,16 @@
 This game was created during an internship. It was used as a base to create a course to teach how to create a video game in JavaScript.
 
 # Technologies
-This game is made in JavaScript thanks to the framework [Phaser](https://phaser.io/ "Phaser's Homepage"). This game has a Docker image that use the alpine version of [NGINX](https://www.nginx.com/ "NGINX's Homepage") has a web server. A Docker Compose file is also provided to allow this game to run in a Docker Compose environment or a Docker Swarm environment.
+This game is made in JavaScript thanks to the framework [Phaser](https://phaser.io/ "Phaser's Homepage"). This game has a Docker image that uses the alpine version of [NGINX](https://www.nginx.com/ "NGINX's Homepage") as a web server. A Docker Compose file is also provided to allow this game to run in a Docker Compose environment or a Docker Swarm environment.
 
 # What's in this game ?
 This game is a platformer game where you control a character that desperately needs to pick up stars and jump on enemies. In this game, all levels are generated based on images.
 
 # How levels are generated ?
-The game loads all images of the levels. When the player load a level, the game scan this image pixel by pixel. It then placed all platforms, stars, enemies and the player.
+The game loads all images of the levels. When the player load a level, the game scans this image pixel by pixel. It then placed all platforms, stars, enemies and the player.
 
 # How can I add other levels ?
-First you need to create a image. One pixel of the image correspond to one block in the game. You can use differents colors for a pixel in the image :
+First you need to create a image. One pixel of the image corresponds to one block in the game. You can use differents colors for a pixel in the image :
 
 ## Blue Pixel
 A blue pixel corresponds to the start position of the player. (Maximum 1 pixel).

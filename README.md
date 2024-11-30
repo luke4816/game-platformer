@@ -14,7 +14,7 @@
 - [Copyrights Disclaimer](#copyrights-disclaimer)
 
 # Context
-This game was created during an internship. It was used as a base to create a course to teach how to create a video game in JavaScript.
+This game was created during an internship. It was used as a base for a course teaching how to create a video game in JavaScript.
 
 # Technologies
 This game is made in JavaScript thanks to the framework [Phaser](https://phaser.io/ "Phaser's Homepage"). This game has a Docker image that uses the alpine version of [NGINX](https://www.nginx.com/ "NGINX's Homepage") as a web server. A Docker Compose file is also provided to allow this game to run in a Docker Compose environment or a Docker Swarm environment.
@@ -30,6 +30,7 @@ First you need to create a image. One pixel of the image corresponds to one bloc
 
 ## Blue Pixel
 A blue pixel corresponds to the start position of the player. (Maximum 1 pixel).
+
 ## Black Pixel
 A black pixel corresponds to a platform.
 

@@ -19,16 +19,21 @@ class Level extends Phaser.Scene {
         this.scoreText.setScrollFactor(0);
 
         this.coinSound = this.sound.add("coin");
+        this.coinSound.volume = 0.3;
 
         this.deathSound = this.sound.add("death");
+        this.deathSound.volume = 0.7;
 
         this.loseMusic = this.sound.add("lose");
         this.loseMusic.setLoop(true);
+        this.loseMusic.volume = 0.2;
 
         this.victorySound = this.sound.add("victory");
+        this.victorySound.volume = 0.7;
 
         this.victoryMusic = this.sound.add("victory_music");
         this.victoryMusic.setLoop(true);
+        this.victoryMusic.volume = 0.2;
 
         this.enemyDeathSound = this.sound.add("enemy_death");
 
